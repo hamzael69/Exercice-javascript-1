@@ -1,5 +1,5 @@
-for (let nombre = 0; nombre <= 20; nombre+=2) {
-    if (nombre % 2 == 0) {
+for (let nombre = 1; nombre <= 20; nombre+=1) {
+    if (nombre % 2 === 0) {
       console.log(nombre);
     }
   }
